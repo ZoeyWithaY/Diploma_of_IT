@@ -1,0 +1,97 @@
+article {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 15vw;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #e5e4e2;
+}
+
+section {
+  padding: 36px
+}
+
+section > * {
+  margin: 0;
+}
+
+
+#introduction {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: #696969;
+  background-color: #ffffff;
+}
+
+#introduction h1 {
+  color: #16a077;
+  font-size: 28px;
+}
+
+#introduction h2 {
+  color: #e57777;
+  font-size: 16px;
+}
+
+#introduction p {
+  padding-top: 12px;
+  font-size: 12px;
+}
+
+#subscribe {
+  background-color: #20ac82;
+  color: #ffffff
+}
+
+#subscribe h2 {
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+#subscribe strong {
+  font-size: 28px;
+  padding-right: 12px;
+}
+
+#subscribe span {
+  color: #abdfd0;
+}
+
+#subscribe p {
+  font-size: 12px;
+  padding: 12px 0 12px 0;
+  color: #dff3ed;
+}
+
+#subscribe a {
+  background-color: #fff06d;
+  color: #50604b;
+  text-decoration: none;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#why {
+  background-color: #16a077;
+  color: #ffffff;
+}
+
+#why h2 {
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+#why ul {
+  list-style: circle;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+#why li {
+  padding: 4px 0;
+}
