@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    width: 500px;
+    margin: 0 auto 0 auto;
+    background-color: #ffff00;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.illustration {
+    display: block;
+}

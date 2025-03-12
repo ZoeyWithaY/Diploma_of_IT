@@ -1,0 +1,36 @@
+body {
+  background-color: #eff1f1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+h1 {
+  color: #474f4c;
+}
+
+h2 {
+  color: #597469;
+}
+
+section {
+  background-color: #fff8f8;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+
+section h1 {
+  color: #e58c36;
+  margin: 0;
+}
+
+section li {
+  padding: 5px 0;
+}
+section li::marker {
+  color: #c45445;
+}
